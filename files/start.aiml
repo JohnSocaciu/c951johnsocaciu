@@ -2,32 +2,32 @@
 <aiml version="2.0">
     
     <category>
-        <pattern>begin</pattern>
+        <pattern>start</pattern>
         <template>Welcome! I am the student career bot for the department of Computer Science. To get started please select from the opitions below: 
             <button>
-                <text>Learn about top 5 careers</text>
-                <postback>top careers</postback>
+                <text>Learn About Five Careers!s</text>
+                <postback>Five Careers To Choose From</postback>
             </button>
             <button>
-                <text>Help me pick a career</text>
-                <postback>find a career</postback>
+                <text>I Have No Idea Where To Start! Help Me Pick a Career!</text>
+                <postback>career questions</postback>
             </button>    
         </template>
     </category>
    
    <category>
-        <pattern>top careers</pattern>
-        <template>Here are 5 Computer Science careers that you can look into with your degree
+        <pattern>Five Careers To Choose From</pattern>
+        <template> Five Careers That Align With Your Degree
             <button>
                 <text>Software Developer</text>
                 <postback>software developer</postback>
             </button>
             <button>
-                <text>Cybersecurity Analyst</text>
-                <postback>cybersecurity analyst</postback>
+                <text>Systems Administrator</text>
+                <postback>Systems Administrator</postback>
             </button>
             <button>
-                <text>UX Designer</text>
+                <text>UI/UX Designer</text>
                 <postback>ux designer</postback>
             </button>
             <button>
@@ -97,8 +97,8 @@
         </template>
     </category>
     <category>
-        <pattern>cyber question</pattern>
-        <template> Do you enjoy working more with networks and security applications?
+        <pattern>sysadmin question</pattern>
+        <template> Do you enjoy working With Systems in General and make sure company's computer systems are functioning to provide 24/7 availability?
             <button>
                 <text>yes</text>
                 <postback>cybersecurity analyst question</postback>
