@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0">
     
     <category>
         <pattern>start</pattern>
@@ -36,12 +36,12 @@
             
             <button>
                 <text>Web Developer</text>
-                <postback>web developer</postback>
+                <postback>web dev</postback>
             </button>
             
             <button>
                 <text>UI/UX Designer</text>
-                <postback>UI/UX designer</postback>
+                <postback>UX Designer</postback>
             </button>
             
             <button>
@@ -60,7 +60,7 @@
         
             <button>
                 <text>yes</text>
-                <postback>webquestion</postback>
+                <postback>webdev question</postback>
             </button>
             <button>
                 <text>No</text>
@@ -70,7 +70,7 @@
     </category>
     
     <category>
-        <pattern>webquestion</pattern>
+        <pattern>webdev question</pattern>
         <template> 
         
         Do you have experience making websites or Working on systems to keep them available for users?
@@ -94,7 +94,7 @@
         
             <button>
                 <text>yes</text>
-                <postback>web developer question</postback>
+                <postback>webdev question</postback>
             </button>
             <button>
                 <text>No</text>

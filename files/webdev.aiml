@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>web dev</pattern>
+        <template>
+            
+            A web developer is a programmer who develops World Wide Web applications using a client–server model. 
+            The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server. 
+            HTTP is used for communications between client and server. 
+            A web developer may specialize in client-side applications (Front-end web development), server-side applications (back-end development), or both (full-stack development).
+            
+            <link>
+                <text>Click The Wiki Link Below To Learn More!</text>
+                <url>https://en.wikipedia.org/wiki/Web_developer</url>
+            </link>
+            <button>
+                <text>Click here to explore four other careers!</text>
+                <postback>Five Careers To Choose From</postback>
+            </button>
+             <button>
+                <text>Click Here To Find The Best Career For You!</text>
+                <postback>career questions</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>webdev question</pattern>
+        <template> 
+        
+       Your Skills Match Up with a Web Developer!
+       
+        A web developer is a programmer who develops World Wide Web applications using a client–server model. 
+            The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server. 
+            HTTP is used for communications between client and server. 
+            A web developer may specialize in client-side applications (Front-end web development), server-side applications (back-end development), or both (full-stack development).
+       
+            <link>
+                <text>Click The Wiki Link Below To Learn More!</text>
+                <url>https://en.wikipedia.org/wiki/Web_developer</url>
+            </link>
+            <button>
+                <text>Click here to explore four other careers!</text>
+                <postback>Five Careers To Choose From</postback>
+            </button>
+             <button>
+                <text>Click Here To Find The Best Career For You!</text>
+                <postback>career questions</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
