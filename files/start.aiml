@@ -5,7 +5,8 @@
         <pattern>start</pattern>
         <template>
           
-            Welcome! I am the student career bot for the department of Computer Science. To get started please select from the opitions below:
+            I am the student career bot for the Computer Science department
+            Get started by making a choice below!
             
             <button>
                 <text>Learn More About Five Relevant Computer Science Careers!</text>
@@ -107,14 +108,14 @@
         <pattern>softdev question</pattern>
         <template> 
         
-        Do you perfer to working in a team with other developers or not?
+        Do you prefer to working in a team with other developers or not?
         
             <button>
                 <text>yes</text>
                 <postback>second softdev question</postback>
             </button>
             <button>
-                <text>I prefer Working With Databases</text>
+                <text>No, I prefer Working With Databases</text>
                 <postback>sysadmin question</postback>
             </button>
         </template>
