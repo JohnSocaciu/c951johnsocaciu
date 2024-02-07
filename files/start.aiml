@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
+<aiml>
     
     <category>
         <pattern>start</pattern>
-        <template>Welcome! I am the student career bot for the department of Computer Science. To get started please select from the opitions below: 
+        <template>
+          
+            Welcome! I am the student career bot for the department of Computer Science. To get started please select from the opitions below:
+            
             <button>
-                <text>Learn About Five Careers!s</text>
+                <text>Learn More About Five Relevant Computer Science Careers!</text>
                 <postback>Five Careers To Choose From</postback>
             </button>
             <button>
@@ -17,65 +20,98 @@
    
    <category>
         <pattern>Five Careers To Choose From</pattern>
-        <template> Five Careers That Align With Your Degree
+        <template> 
+        
+        Five Careers That Align With Your Computer Science Degree!
+        
             <button>
                 <text>Software Developer</text>
                 <postback>software developer</postback>
             </button>
+            
             <button>
                 <text>Systems Administrator</text>
                 <postback>Systems Administrator</postback>
             </button>
-            <button>
-                <text>UI/UX Designer</text>
-                <postback>ux designer</postback>
-            </button>
-            <button>
-                <text>Database Administrator</text>
-                <postback>database administrator</postback>
-            </button>
+            
             <button>
                 <text>Web Developer</text>
                 <postback>web developer</postback>
             </button>
+            
+            <button>
+                <text>UI/UX Designer</text>
+                <postback>UI/UX designer</postback>
+            </button>
+            
+            <button>
+                <text>Database Administrator</text>
+                <postback>database administrator</postback>
+            </button>
+            
         </template>
     </category>
     
      <category>
-        <pattern>find a career</pattern>
-        <template>We will now ask you a series of questions to provide suggestions on career paths to consider.
-        <br></br><br></br>
-        Do you enjoy design but struggle with programming?
+        <pattern>career questions</pattern>
+        <template>We will now ask you a series of questions to provide suggestions on career paths to consider...😀
+  
+        Do you enjoy designing user interfaces but struggle with coding/software development?
+        
             <button>
                 <text>yes</text>
                 <postback>webquestion</postback>
             </button>
             <button>
                 <text>No</text>
-                <postback>programming question</postback>
+                <postback>softdev question</postback>
             </button>
         </template>
     </category>
     
     <category>
         <pattern>webquestion</pattern>
-        <template> Do you have a lot of experience working with web applications or API's?  
+        <template> 
+        
+        Do you have experience making websites or Working on systems to keep them available for users?
+        
             <button>
                 <text>yes</text>
-                <postback>webquestion 2</postback>
+                <postback>second webdev question</postback>
             </button>
             <button>
                 <text>No</text>
-                <postback>cyber question</postback>
+                <postback>sysdev question</postback>
             </button>
         </template>
     </category>
+    
     <category>
-        <pattern>programming question</pattern>
-        <template> Do you perfer to work in a development environment?
+        <pattern>second webdev question</pattern>
+        <template> 
+        
+        Do you enjoy working primairly with websites?
+        
             <button>
                 <text>yes</text>
-                <postback>programming question 2</postback>
+                <postback>web developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>UI/UX designer question</postback>
+            </button>
+        </template>
+    </category>    
+    
+    <category>
+        <pattern>softdev question</pattern>
+        <template> 
+        
+        Do you perfer to working in a team with other developers or not?
+        
+            <button>
+                <text>yes</text>
+                <postback>second softdev question</postback>
             </button>
             <button>
                 <text>No</text>
@@ -83,57 +119,56 @@
             </button>
         </template>
     </category>
-    <category>
-        <pattern>webquestion 2</pattern>
-        <template> Do you enjoy working primairly with web applications?
-            <button>
-                <text>yes</text>
-                <postback>web developer question</postback>
-            </button>
-            <button>
-                <text>No</text>
-                <postback>ux designer question</postback>
-            </button>
-        </template>
-    </category>
+    
     <category>
         <pattern>sysadmin question</pattern>
-        <template> Do you enjoy working With Systems in General and make sure company's computer systems are functioning to provide 24/7 availability?
+        <template> 
+        
+        Do you like working With Systems in General and make sure company's computer systems are functioning to provide 24/7 availability?
+        
             <button>
                 <text>yes</text>
-                <postback>cybersecurity analyst question</postback>
+                <postback>sysdev question</postback>
             </button>
             <button>
                 <text>No</text>
                 <postback>no suggested job</postback>
             </button>
         </template>
-    </category>
-        <category>
-        <pattern>programming question 2</pattern>
-        <template> Do you enjoy engineering, designing, installing, testing, and maintaining software systems?
-            <button>
-                <text>yes</text>
-                <postback>software developer question</postback>
-            </button>
-            <button>
-                <text>No</text>
-                <postback>cyber question</postback>
-            </button>
-        </template>
-    </category>
-            <category>
+        
+    <category>
         <pattern>database question</pattern>
-        <template>Do you enjoy using databases to store, organize, and protect data?
+        <template>
+            
+            Do you like working with databases to organize and protect data?
+            
             <button>
                 <text>yes</text>
                 <postback>database administrator question</postback>
             </button>
             <button>
                 <text>No</text>
-                <postback>programming question 2</postback>
+                <postback>second softdev question</postback>
             </button>
         </template>
     </category>
-
+    
+    </category>
+        <category>
+        <pattern>second softdev question</pattern>
+        <template> 
+        
+        Do you enjoy working with the Software Development Life Cycle to create software?
+        
+            <button>
+                <text>yes</text>
+                <postback>software developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>sysdev question</postback>
+            </button>
+        </template>
+    </category>
+    
 </aiml>

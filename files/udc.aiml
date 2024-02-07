@@ -2,6 +2,6 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>There's no Answer To that Question, Please type "start" to restart the chatbot, thank you...</template>
   </category>
 </aiml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	 <category>
+        <pattern>software developer</pattern>
+        <template>
+            
+           Software developers is basically a computer programmer, which is sometimes referred to as a software developer, a software engineer, a programmer or a coder (a person who creates computer program) 
+            <link>
+                <text>Click The Link Below to Be Directed to the Software Dev Wiki Page</text>
+                <url>https://en.wikipedia.org/wiki/Programmer</url>
+            </link>
+            <button>
+                <text>Click here to explore four other careers!</text>
+                <postback>Five Careers To Choose From</postback>
+            </button>
+             <button>
+                <text>Click Here To Find The Best Career For You!</text>
+                <postback>career questions</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>software developer question</pattern>
+        <template> You Should Become a Software Developer/Engineer! 
+        
+        Software developers is basically a computer programmer, which is sometimes referred to as a software developer, a software engineer, a programmer or a coder (a person who creates computer program).
+           
+            <link>
+                <text>Click The Wiki Link Below To Learn More!</text>
+                <url>https://en.wikipedia.org/wiki/Programmer</url>
+            </link>
+            <button>
+                <text>Click here to explore four other careers!.</text>
+                <postback>Five Careers To Choose From</postback>
+            </button>
+             <button>
+                <text>Click Here To Find The Best Career For You!</text>
+                <postback>career questions</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

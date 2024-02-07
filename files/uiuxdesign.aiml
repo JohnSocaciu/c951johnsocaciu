@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>UI/UX designer</pattern>
+        <template>
+            
+            User experience design (UX design, UXD, UED, or XD) defines the experience a user would go through when interacting with a company, its services, and its products.[1] User experience design is a user centered design approach because it considers the user's experience when using a product or platform.
+            
+            <link>
+                <text>Click The Wiki Link Below To Learn More!</text>
+                <url>https://en.wikipedia.org/wiki/User_experience_design</url>
+            </link>
+            <button>
+                <text>Click here to explore four other careers!</text>
+                <postback>Five Careers To Choose From</postback>
+            </button>
+             <button>
+                <text>Click Here To Find The Best Career For You!</text>
+                <postback>career questions</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>UI/UX designer question</pattern>
+        <template> <p>Your Skills Match Up With A UI/UX Designer (User Experience Design -- You should Consider Becoming A UI/UX Designer! </p>
+       
+       User experience design (UX design, UXD, UED, or XD) defines the experience a user would go through when interacting with a company, its services, and its products.[1] User experience design is a user centered design approach because it considers the user's experience when using a product or platform.
+       
+            <link>
+                <text>Click The Wiki Link Below To Learn More!</text>
+                <url>https://en.wikipedia.org/wiki/User_experience_design</url>
+            </link>
+            <button>
+                <text>Click here to explore four other careers!</text>
+                <postback>Five Careers To Choose From</postback>
+            </button>
+             <button>
+                <text>Click Here To Find The Best Career For You!</text>
+                <postback>career questions</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
