@@ -31,7 +31,7 @@
             
             <button>
                 <text>Systems Administrator</text>
-                <postback>Systems Administrator</postback>
+                <postback>Sys Administrator</postback>
             </button>
             
             <button>
@@ -54,7 +54,7 @@
     
      <category>
         <pattern>career questions</pattern>
-        <template>We will now ask you a series of questions to provide suggestions on career paths to consider...😀
+        <template>We will now ask you some questions to provide suggestions on career paths to consider...😀
   
         Do you enjoy designing user interfaces but struggle with coding/software development?
         
@@ -114,8 +114,8 @@
                 <postback>second softdev question</postback>
             </button>
             <button>
-                <text>No</text>
-                <postback>database question</postback>
+                <text>I prefer Working With Databases</text>
+                <postback>sysadmin question</postback>
             </button>
         </template>
     </category>
@@ -132,9 +132,10 @@
             </button>
             <button>
                 <text>No</text>
-                <postback>no suggested job</postback>
+                <postback>database question</postback>
             </button>
         </template>
+    </category>
         
     <category>
         <pattern>database question</pattern>
@@ -153,7 +154,6 @@
         </template>
     </category>
     
-    </category>
         <category>
         <pattern>second softdev question</pattern>
         <template> 

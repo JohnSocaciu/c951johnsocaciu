@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-        <pattern>Systems Administrator</pattern>
+        <pattern>Sys Administrator</pattern>
         <template> 
         
         Can be pronounced as sysAdmin as well...the role of a systems adminstrator is to make sure an organization's computer systems are functioning and meet the needs of the organization. Sysadmins support, troubleshoot, and maintain computer servers and networks.
